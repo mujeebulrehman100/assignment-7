@@ -10,6 +10,7 @@
     gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.png);
     background-size: cover;
     background-position: center;
+  
 }
 .navbar{
     width: 85%;
@@ -48,13 +49,15 @@
 .navbar ul li:hover::after{
     width: 100%;
 }
+
 .content{
     width: 100%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: blue
+    color: blue;
+    margin-bottom: 100px ;
 }
 .content h1{
     font-size:50px;
